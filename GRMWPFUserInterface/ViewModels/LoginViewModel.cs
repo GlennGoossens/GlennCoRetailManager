@@ -1,5 +1,5 @@
 ﻿using Caliburn.Micro;
-using GRMWPFUserInterface.Helpers;
+using GRMDesktopUI.Library.Api;
 using System;
 using System.Threading.Tasks;
 
@@ -80,6 +80,8 @@ namespace GRMWPFUserInterface.ViewModels
             {
                 ErrorMessage = "";
                 var result = await _apiHelper.Authenticate(UserName, Password);
+                await _apiHelper.GetLogginInUserInfo(result.Access_Token);
+
             }
             catch (Exception ex)
             {

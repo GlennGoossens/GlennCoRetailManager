@@ -1,10 +1,12 @@
-﻿using GRMWPFUserInterface.Models;
+﻿
+using GRMDesktopUI.Library.Models;
 using System.Threading.Tasks;
 
-namespace GRMWPFUserInterface.Helpers
+namespace GRMDesktopUI.Library.Api
 {
     public interface IAPIHelper
     {
         Task<AuthenticatedUser> Authenticate(string username, string password);
+        Task GetLogginInUserInfo(string token);
     }
 }

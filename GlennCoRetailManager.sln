@@ -9,6 +9,10 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GRMData", "GRMData\GRMData.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRMDesktopUI", "GRMWPFUserInterface\GRMDesktopUI.csproj", "{5FCE9CC7-CF1E-48BF-9DCE-B48817586640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRMDataManager.Library", "GRMDataManager.Library\GRMDataManager.Library.csproj", "{B3427F32-0C8E-480D-A71E-6DA880887AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRMDesktopUI.Library", "GRMDesktopUI.Library\GRMDesktopUI.Library.csproj", "{07462314-CD31-40A6-B959-939542C0C46E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{5FCE9CC7-CF1E-48BF-9DCE-B48817586640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FCE9CC7-CF1E-48BF-9DCE-B48817586640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FCE9CC7-CF1E-48BF-9DCE-B48817586640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3427F32-0C8E-480D-A71E-6DA880887AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3427F32-0C8E-480D-A71E-6DA880887AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3427F32-0C8E-480D-A71E-6DA880887AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3427F32-0C8E-480D-A71E-6DA880887AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07462314-CD31-40A6-B959-939542C0C46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07462314-CD31-40A6-B959-939542C0C46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07462314-CD31-40A6-B959-939542C0C46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07462314-CD31-40A6-B959-939542C0C46E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

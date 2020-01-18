@@ -1,4 +1,6 @@
 ﻿using Caliburn.Micro;
+using GRMDesktopUI.Library.Api;
+using GRMDesktopUI.Library.Models;
 using GRMWPFUserInterface.Helpers;
 using GRMWPFUserInterface.ViewModels;
 using System;
@@ -32,6 +34,7 @@ namespace GRMWPFUserInterface
             _container
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<ILoggedInUserModel, LoggedInUserModel>()
                 .Singleton<IAPIHelper,APIHelper>();
 
             GetType().Assembly.GetTypes()
